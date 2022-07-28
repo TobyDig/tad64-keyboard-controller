@@ -1,0 +1,534 @@
+
+        Lattice Mapping Report File for Design Module 'tad64_keyboard'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO3LF -p LCMXO3LF-6900C -t CABGA256 -s 6 -oc
+     Industrial tad64_kb_mk1_v2_impl1.ngd -o tad64_kb_mk1_v2_impl1_map.ncd -pr
+     tad64_kb_mk1_v2_impl1.prf -mp tad64_kb_mk1_v2_impl1.mrp -lpf
+     C:/Users/tobya/Documents/Lattice
+     Diamond/tad64_keyboard_mk1/v2/impl1/tad64_kb_mk1_v2_impl1.lpf -lpf
+     C:/Users/tobya/Documents/Lattice
+     Diamond/tad64_keyboard_mk1/v2/tad64_kb_mk1_v2.lpf -c 0 -gui -msgset
+     C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/promote.xml
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO3LF-6900CCABGA256
+Target Performance:   6
+Mapper:  xo3c00f,  version:  Diamond (64-bit) 3.12.1.454
+Mapped on:  02/10/22  00:30:18
+
+Design Summary
+--------------
+
+   Number of registers:    386 out of  7485 (5%)
+      PFU registers:          386 out of  6864 (6%)
+      PIO registers:            0 out of   621 (0%)
+   Number of SLICEs:       330 out of  3432 (10%)
+      SLICEs as Logic/ROM:    330 out of  3432 (10%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        656 out of  6864 (10%)
+      Number used as logic LUTs:        634
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 125 + 4(JTAG) out of 207 (62%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+                                    Page 1
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+Design Summary (cont)
+---------------------
+   Number of clocks:  2
+     Net clkin_c: 191 loads, 162 rising, 29 falling (Driver: PIO clkin )
+     Net DAC/psc_clkin: 10 loads, 10 rising, 0 falling (Driver: DAC/i2_3_lut )
+   Number of Clock Enables:  4
+     Net stdkey_edge_73: 1 loads, 1 LSLICEs
+     Net clk_N_445_enable_8: 1 loads, 1 LSLICEs
+     Net psc_clkin_enable_12: 7 loads, 7 LSLICEs
+     Net clk_N_445_enable_7: 4 loads, 4 LSLICEs
+   Number of LSRs:  13
+     Net output_buf_clr: 6 loads, 6 LSLICEs
+     Net stdkey_edge_74: 1 loads, 1 LSLICEs
+     Net any_alpha_clr: 1 loads, 1 LSLICEs
+     Net keycode_clr: 4 loads, 4 LSLICEs
+     Net cmd: 1 loads, 1 LSLICEs
+     Net n7: 2 loads, 2 LSLICEs
+     Net key.lmod_c_0: 1 loads, 1 LSLICEs
+     Net key.lmod_c_3: 1 loads, 1 LSLICEs
+     Net key.lmod_c_2: 1 loads, 1 LSLICEs
+     Net key.lmod_c_1: 1 loads, 1 LSLICEs
+     Net stdkey_hold_73: 1 loads, 1 LSLICEs
+     Net n2861: 1 loads, 1 LSLICEs
+     Net n22: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net n10116: 82 loads
+     Net n10248: 52 loads
+     Net clk_N_445_enable_8: 43 loads
+     Net n10115: 43 loads
+     Net gpo_en: 25 loads
+     Net n10231: 24 loads
+     Net dacout_c_0: 15 loads
+     Net stdkey_edge_0: 13 loads
+     Net n1696: 12 loads
+     Net udc_dir: 12 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| keycode[9]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+IO (PIO) Attributes (cont)
+--------------------------
+| keycode[10]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[8]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[7]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[3]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| keycode[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clkout              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[11]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[10]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[9]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[8]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[7]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[6]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[5]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[4]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[3]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[2]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[1]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| dacout[0]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[11]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[10]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[9]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[8]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[7]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+IO (PIO) Attributes (cont)
+--------------------------
+| gpoout[6]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[5]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[4]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[3]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[2]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[1]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| gpoout[0]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| pwrout              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clkin               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.lmod[3]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.lmod[2]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.lmod[1]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.lmod[0]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.rmod[3]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.rmod[2]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.rmod[1]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.rmod[0]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[76]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[75]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[74]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[73]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[72]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[71]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[70]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[69]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[68]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[67]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[66]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+IO (PIO) Attributes (cont)
+--------------------------
+| key.std[65]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[64]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[63]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[62]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[61]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[60]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[59]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[58]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[57]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[56]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[55]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[54]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[53]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[52]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[51]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[50]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[49]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[48]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[47]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[46]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[45]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[44]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[43]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[42]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[41]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[40]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[39]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[38]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 5
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+IO (PIO) Attributes (cont)
+--------------------------
+| key.std[37]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[36]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[35]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[34]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[33]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[32]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[31]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[30]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[29]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[28]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[27]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[26]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[25]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[24]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[23]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[22]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[21]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[20]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[19]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[18]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[17]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[16]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[15]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[14]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[13]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[12]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[11]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[10]         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 6
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+IO (PIO) Attributes (cont)
+--------------------------
+| key.std[9]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[8]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[7]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[6]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[5]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[4]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[3]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[2]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[1]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.std[0]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.caps            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| key.cmd             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block i2 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal clk_N_445 was merged into signal clkin_c
+Signal n2862 was merged into signal cmd
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal count_113_add_4_13/S1 undriven or does not drive anything - clipped.
+Signal count_113_add_4_13/CO undriven or does not drive anything - clipped.
+Signal prev_output_buf_out_10__I_0_11_8143/S1 undriven or does not drive
+     anything - clipped.
+Signal prev_output_buf_out_10__I_0_11_8143/S0 undriven or does not drive
+     anything - clipped.
+Signal prev_output_buf_out_10__I_0_0/S1 undriven or does not drive anything -
+     clipped.
+Signal prev_output_buf_out_10__I_0_0/S0 undriven or does not drive anything -
+     clipped.
+Signal prev_output_buf_out_10__I_0_0/CI undriven or does not drive anything -
+     clipped.
+Signal count_113_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal count_113_add_4_1/CI undriven or does not drive anything - clipped.
+Signal prev_output_buf_out_10__I_0_11/S1 undriven or does not drive anything -
+     clipped.
+Signal prev_output_buf_out_10__I_0_11/CO undriven or does not drive anything -
+     clipped.
+Signal prev_output_buf_out_10__I_0_9/S1 undriven or does not drive anything -
+     clipped.
+Signal prev_output_buf_out_10__I_0_9/S0 undriven or does not drive anything -
+     clipped.
+
+                                    Page 7
+
+
+
+
+Design:  tad64_keyboard                                Date:  02/10/22  00:30:18
+
+Removed logic (cont)
+--------------------
+Block i9531 was optimized away.
+Block MS/i2248_1_lut was optimized away.
+Block i1 was optimized away.
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 45 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 8
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.

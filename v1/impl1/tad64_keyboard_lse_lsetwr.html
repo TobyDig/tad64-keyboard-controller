@@ -1,0 +1,368 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sun Feb 06 17:17:15 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     tad64_keyboard
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets clkin_c]
+            56 items scored, 56 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 18.393ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \SS/ff_sync.nonalpha.fnkey.f15_i9  (from clkin_c +)
+   Destination:    FD1P3IX    D              \KCB/q_buf__i0  (to clkin_c -)
+
+   Delay:                  20.760ns  (33.2% logic, 66.8% route), 17 logic levels.
+
+ Constraint Details:
+
+     20.760ns data_path \SS/ff_sync.nonalpha.fnkey.f15_i9 to \KCB/q_buf__i0 violates
+      2.500ns delay constraint less
+      0.133ns L_S requirement (totaling 2.367ns) by 18.393ns
+
+ Path Details: \SS/ff_sync.nonalpha.fnkey.f15_i9 to \KCB/q_buf__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \SS/ff_sync.nonalpha.fnkey.f15_i9 (from clkin_c)
+Route         5   e 1.021                                  std_hold.nonalpha.fnkey.f7
+LUT4        ---     0.408              A to Z              \SS/stdkey_hold.nonalpha.fnkey.f7_I_0_2_lut_rep_184
+Route         4   e 0.937                                  n7158
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_3_lut_4_lut_adj_44
+Route         6   e 1.018                                  \KC/n6420
+LUT4        ---     0.408              C to Z              \KC/i1_2_lut_rep_86_3_lut_4_lut
+Route         9   e 1.099                                  \KC/n7060
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_rep_76_3_lut_4_lut
+Route         3   e 0.879                                  \KC/n7050
+LUT4        ---     0.408              B to Z              \KC/i2_3_lut_rep_71_4_lut
+Route         6   e 1.018                                  n7045
+LUT4        ---     0.408              C to Z              \SS/i1_2_lut_rep_60_3_lut_4_lut
+Route         2   e 0.798                                  n7034
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_rep_41_3_lut_4_lut
+Route         3   e 0.879                                  \KC/n7015
+LUT4        ---     0.408              A to Z              \KC/i2_3_lut_rep_23_4_lut
+Route         2   e 0.798                                  \KC/n6997
+LUT4        ---     0.408              A to Z              \KC/i2_3_lut_rep_10_4_lut
+Route         1   e 0.660                                  \KC/n6984
+LUT4        ---     0.408              B to Z              \KC/i3_4_lut
+Route         1   e 0.660                                  \KC/n10
+LUT4        ---     0.408              B to Z              \KC/i5_4_lut
+Route         1   e 0.660                                  \KC/n12
+LUT4        ---     0.408              B to Z              \KC/i6_4_lut_adj_77
+Route         2   e 0.798                                  \KC/n4334
+LUT4        ---     0.408              C to Z              \KC/i5_4_lut_adj_96
+Route         1   e 0.660                                  \KC/n12_adj_391
+LUT4        ---     0.408              B to Z              \KC/i6_4_lut_adj_92
+Route         1   e 0.660                                  \KC/n6378
+LUT4        ---     0.408              C to Z              \KC/i6_4_lut_adj_91
+Route         1   e 0.660                                  \KC/n14_adj_387
+LUT4        ---     0.408              B to Z              \KC/i7_4_lut_adj_79
+Route         1   e 0.660                                  keycoder_out[0]
+                  --------
+                   20.760  (33.2% logic, 66.8% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 18.393ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \SS/ff_sync.nonalpha.fnkey.f15_i8  (from clkin_c +)
+   Destination:    FD1P3IX    D              \KCB/q_buf__i0  (to clkin_c -)
+
+   Delay:                  20.760ns  (33.2% logic, 66.8% route), 17 logic levels.
+
+ Constraint Details:
+
+     20.760ns data_path \SS/ff_sync.nonalpha.fnkey.f15_i8 to \KCB/q_buf__i0 violates
+      2.500ns delay constraint less
+      0.133ns L_S requirement (totaling 2.367ns) by 18.393ns
+
+ Path Details: \SS/ff_sync.nonalpha.fnkey.f15_i8 to \KCB/q_buf__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \SS/ff_sync.nonalpha.fnkey.f15_i8 (from clkin_c)
+Route         5   e 1.021                                  std_hold.nonalpha.fnkey.f8
+LUT4        ---     0.408              A to Z              \SS/stdkey_hold.nonalpha.fnkey.f8_I_0_2_lut_rep_185
+Route         4   e 0.937                                  n7159
+LUT4        ---     0.408              A to Z              \KC/i1_2_lut_3_lut_4_lut_adj_44
+Route         6   e 1.018                                  \KC/n6420
+LUT4        ---     0.408              C to Z              \KC/i1_2_lut_rep_86_3_lut_4_lut
+Route         9   e 1.099                                  \KC/n7060
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_rep_76_3_lut_4_lut
+Route         3   e 0.879                                  \KC/n7050
+LUT4        ---     0.408              B to Z              \KC/i2_3_lut_rep_71_4_lut
+Route         6   e 1.018                                  n7045
+LUT4        ---     0.408              C to Z              \SS/i1_2_lut_rep_60_3_lut_4_lut
+Route         2   e 0.798                                  n7034
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_rep_41_3_lut_4_lut
+Route         3   e 0.879                                  \KC/n7015
+LUT4        ---     0.408              A to Z              \KC/i2_3_lut_rep_23_4_lut
+Route         2   e 0.798                                  \KC/n6997
+LUT4        ---     0.408              A to Z              \KC/i2_3_lut_rep_10_4_lut
+Route         1   e 0.660                                  \KC/n6984
+LUT4        ---     0.408              B to Z              \KC/i3_4_lut
+Route         1   e 0.660                                  \KC/n10
+LUT4        ---     0.408              B to Z              \KC/i5_4_lut
+Route         1   e 0.660                                  \KC/n12
+LUT4        ---     0.408              B to Z              \KC/i6_4_lut_adj_77
+Route         2   e 0.798                                  \KC/n4334
+LUT4        ---     0.408              C to Z              \KC/i5_4_lut_adj_96
+Route         1   e 0.660                                  \KC/n12_adj_391
+LUT4        ---     0.408              B to Z              \KC/i6_4_lut_adj_92
+Route         1   e 0.660                                  \KC/n6378
+LUT4        ---     0.408              C to Z              \KC/i6_4_lut_adj_91
+Route         1   e 0.660                                  \KC/n14_adj_387
+LUT4        ---     0.408              B to Z              \KC/i7_4_lut_adj_79
+Route         1   e 0.660                                  keycoder_out[0]
+                  --------
+                   20.760  (33.2% logic, 66.8% route), 17 logic levels.
+
+
+Error:  The following path violates requirements by 18.349ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             \SS/ff_sync.nonalpha.fnkey.f15_i11  (from clkin_c +)
+   Destination:    FD1P3IX    D              \KCB/q_buf__i0  (to clkin_c -)
+
+   Delay:                  20.716ns  (33.3% logic, 66.7% route), 17 logic levels.
+
+ Constraint Details:
+
+     20.716ns data_path \SS/ff_sync.nonalpha.fnkey.f15_i11 to \KCB/q_buf__i0 violates
+      2.500ns delay constraint less
+      0.133ns L_S requirement (totaling 2.367ns) by 18.349ns
+
+ Path Details: \SS/ff_sync.nonalpha.fnkey.f15_i11 to \KCB/q_buf__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \SS/ff_sync.nonalpha.fnkey.f15_i11 (from clkin_c)
+Route         4   e 0.977                                  std_hold.nonalpha.fnkey.f5
+LUT4        ---     0.408              A to Z              \SS/stdkey_hold.nonalpha.fnkey.f5_I_0_2_lut_rep_186
+Route         4   e 0.937                                  n7160
+LUT4        ---     0.408              C to Z              \KC/i1_2_lut_3_lut_4_lut_adj_44
+Route         6   e 1.018                                  \KC/n6420
+LUT4        ---     0.408              C to Z              \KC/i1_2_lut_rep_86_3_lut_4_lut
+Route         9   e 1.099                                  \KC/n7060
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_rep_76_3_lut_4_lut
+Route         3   e 0.879                                  \KC/n7050
+LUT4        ---     0.408              B to Z              \KC/i2_3_lut_rep_71_4_lut
+Route         6   e 1.018                                  n7045
+LUT4        ---     0.408              C to Z              \SS/i1_2_lut_rep_60_3_lut_4_lut
+Route         2   e 0.798                                  n7034
+LUT4        ---     0.408              B to Z              \KC/i1_2_lut_rep_41_3_lut_4_lut
+Route         3   e 0.879                                  \KC/n7015
+LUT4        ---     0.408              A to Z              \KC/i2_3_lut_rep_23_4_lut
+Route         2   e 0.798                                  \KC/n6997
+LUT4        ---     0.408              A to Z              \KC/i2_3_lut_rep_10_4_lut
+Route         1   e 0.660                                  \KC/n6984
+LUT4        ---     0.408              B to Z              \KC/i3_4_lut
+Route         1   e 0.660                                  \KC/n10
+LUT4        ---     0.408              B to Z              \KC/i5_4_lut
+Route         1   e 0.660                                  \KC/n12
+LUT4        ---     0.408              B to Z              \KC/i6_4_lut_adj_77
+Route         2   e 0.798                                  \KC/n4334
+LUT4        ---     0.408              C to Z              \KC/i5_4_lut_adj_96
+Route         1   e 0.660                                  \KC/n12_adj_391
+LUT4        ---     0.408              B to Z              \KC/i6_4_lut_adj_92
+Route         1   e 0.660                                  \KC/n6378
+LUT4        ---     0.408              C to Z              \KC/i6_4_lut_adj_91
+Route         1   e 0.660                                  \KC/n14_adj_387
+LUT4        ---     0.408              B to Z              \KC/i7_4_lut_adj_79
+Route         1   e 0.660                                  keycoder_out[0]
+                  --------
+                   20.716  (33.3% logic, 66.7% route), 17 logic levels.
+
+Warning: 20.893 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clkin_c]                 |     5.000 ns|    41.786 ns|    17 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\KC/n14_adj_387                         |       1|      43|     76.79%
+                                        |        |        |
+keycoder_out[0]                         |       1|      43|     76.79%
+                                        |        |        |
+\KC/n10                                 |       1|      40|     71.43%
+                                        |        |        |
+\KC/n12                                 |       1|      40|     71.43%
+                                        |        |        |
+\KC/n12_adj_391                         |       1|      40|     71.43%
+                                        |        |        |
+\KC/n4334                               |       2|      40|     71.43%
+                                        |        |        |
+\KC/n6378                               |       1|      40|     71.43%
+                                        |        |        |
+\KC/n6984                               |       1|      40|     71.43%
+                                        |        |        |
+\KC/n6997                               |       2|      40|     71.43%
+                                        |        |        |
+\KC/n7015                               |       3|      40|     71.43%
+                                        |        |        |
+\KC/n7050                               |       3|      40|     71.43%
+                                        |        |        |
+n7034                                   |       2|      40|     71.43%
+                                        |        |        |
+n7045                                   |       6|      40|     71.43%
+                                        |        |        |
+\KC/n7061                               |       8|      32|     57.14%
+                                        |        |        |
+\KC/n1718                               |       4|      16|     28.57%
+                                        |        |        |
+\KC/n7005                               |       4|      16|     28.57%
+                                        |        |        |
+\KC/n7031                               |       6|      16|     28.57%
+                                        |        |        |
+n7039                                   |       7|      16|     28.57%
+                                        |        |        |
+n7052                                   |       6|      16|     28.57%
+                                        |        |        |
+n7056                                   |       5|      16|     28.57%
+                                        |        |        |
+\KC/n7063                               |       8|      12|     21.43%
+                                        |        |        |
+\KC/n9_adj_390                          |       1|      10|     17.86%
+                                        |        |        |
+\KC/n12_adj_389                         |       1|      10|     17.86%
+                                        |        |        |
+\KC/n14                                 |       1|      10|     17.86%
+                                        |        |        |
+\KC/n1019                               |       2|      10|     17.86%
+                                        |        |        |
+\KC/n6382                               |       2|      10|     17.86%
+                                        |        |        |
+\KC/n6502                               |       2|      10|     17.86%
+                                        |        |        |
+keycoder_out[2]                         |       1|      10|     17.86%
+                                        |        |        |
+\KC/n6420                               |       6|       8|     14.29%
+                                        |        |        |
+\KC/n7060                               |       9|       8|     14.29%
+                                        |        |        |
+\KC/n7074                               |       4|       8|     14.29%
+                                        |        |        |
+\KC/n7076                               |       3|       8|     14.29%
+                                        |        |        |
+\KC/n7077                               |       4|       8|     14.29%
+                                        |        |        |
+n7075                                   |       6|       8|     14.29%
+                                        |        |        |
+\KC/n7_adj_369                          |       1|       6|     10.71%
+                                        |        |        |
+\KC/n8_adj_372                          |       1|       6|     10.71%
+                                        |        |        |
+\KC/n944                                |       2|       6|     10.71%
+                                        |        |        |
+\KC/n6408                               |       2|       6|     10.71%
+                                        |        |        |
+\KC/n6989                               |       1|       6|     10.71%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 56  Score: 2032398
+
+Constraints cover  34548 paths, 594 nets, and 1773 connections (92.7% coverage)
+
+
+Peak memory: 108347392 bytes, TRCE: 0 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

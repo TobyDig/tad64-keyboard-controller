@@ -1,0 +1,139 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation
+Pascii
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 104
+Z3 w1644307196
+R0
+Z4 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd
+Z5 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd
+l0
+L4 1
+Vc`HhPbCoJcPmziiJenaDP2
+!s100 [h91L]Ke6DVlDSFXE:8E=0
+Z6 OT;C;2020.3;71
+32
+Z7 !s110 1644321030
+!i10b 1
+Z8 !s108 1644321030.000000
+Z9 !s90 -reportprogress|300|-work|tad64|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd|
+Z10 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd|
+!i113 1
+Z11 o-work tad64 -2002 -explicit -O0
+Z12 tExplicit 1 CvgOpt 0
+Pcomcodes
+R1
+R2
+!i122 104
+R3
+R0
+R4
+R5
+l0
+L141 1
+VS>RdWCDh>U?@@OXeCL<>91
+!s100 Ne>a<n0o=kfHbl^30=`4k0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ptypes
+R1
+R2
+!i122 105
+Z13 w1644313441
+R0
+Z14 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/types.vhd
+Z15 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/types.vhd
+l0
+L17 1
+VK73ab?zM?WNRk36UFM68S3
+!s100 VW`3Wzc0Ic`EnGg6>boDo1
+R6
+32
+b1
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|tad64|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/types.vhd|
+Z17 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/types.vhd|
+!i113 1
+R11
+R12
+Bbody
+DPx4 work 5 types 0 22 K73ab?zM?WNRk36UFM68S3
+R1
+R2
+!i122 105
+l0
+L135 1
+VNo5PGhn5TRi_<YaU8ga_g1
+!s100 <C1k:5ESkChm7ZE?b9=6[2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Putils
+R1
+R2
+!i122 106
+Z18 w1643973221
+R0
+Z19 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd
+Z20 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd
+l0
+L4 1
+VKIYU6?_h5ki4B4ES2[RFn2
+!s100 Uh>;b8CzPe^b>j@S]IZI93
+R6
+32
+b1
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|tad64|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd|
+Z22 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd|
+!i113 1
+R11
+R12
+Bbody
+Z23 DPx4 work 5 utils 0 22 KIYU6?_h5ki4B4ES2[RFn2
+R1
+R2
+!i122 106
+l0
+Z24 L13 1
+Z25 V3?5@cBWGD@U<m>n3h=MX_3
+Z26 !s100 NYlgN]R>>MVzS?1oD>E1>1
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12

@@ -1,0 +1,84 @@
+----------------------------------------------------------------------
+Report for cell tad64_keyboard.TECH
+Register bits:  191 of 7485 (2.552%)
+I/O cells:      99
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4          100.0
+                            FD1P3IX         7          100.0
+                            FD1S3AX       179          100.0
+                            FD1S3IX         1          100.0
+                            FD1S3JX         4          100.0
+                                GSR         1          100.0
+                                 IB        87          100.0
+                                INV         1          100.0
+                               LUT4       417          100.0
+                                 OB        12          100.0
+SUB MODULES
+                         caps_latch         1
+                     data_buffer(1)         1
+                    data_buffer(11)         1
+                 data_buffer(11)_U0         1
+                     data_buffer(7)         1
+                           keycoder         1
+                           mod_sync         1
+                           std_sync         1
+                              TOTAL       721
+----------------------------------------------------------------------
+Report for cell data_buffer(1).v1
+Instance Path : AB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell std_sync.v1
+Instance Path : SS
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX       154           86.0
+                               LUT4       144           34.5
+                              TOTAL       298
+----------------------------------------------------------------------
+Report for cell data_buffer(7).v1
+Instance Path : KCB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3IX         7          100.0
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell data_buffer(11).v1
+Instance Path : POB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX        11            6.1
+                              TOTAL        11
+----------------------------------------------------------------------
+Report for cell data_buffer(11)_U0.v1
+Instance Path : OB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX        11            6.1
+                              TOTAL        11
+----------------------------------------------------------------------
+Report for cell mod_sync.v1
+Instance Path : MS
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3JX         4          100.0
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell keycoder.v1
+Instance Path : KC
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       214           51.3
+                              TOTAL       214
+----------------------------------------------------------------------
+Report for cell caps_latch.v1
+Instance Path : CL
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         3            1.7
+                               LUT4         1            0.2
+                              TOTAL         4

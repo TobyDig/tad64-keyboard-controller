@@ -1,0 +1,238 @@
+
+synthesis -f "tad64_kb_mk1_v1_impl1_lattice.synproj"
+synthesis:  version Diamond (64-bit) 3.12.1.454
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Feb 06 17:16:54 2022
+
+
+Command Line:  synthesis -f tad64_kb_mk1_v1_impl1_lattice.synproj -gui 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is MachXO3LF.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LCMXO3LF-6900C.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3LF
+
+### Device  : LCMXO3LF-6900C
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+    <postMsg mid="35001781" type="Info"    dynamic="0" navigation="0"  />
+Optimization goal = Balanced
+Top-level module name = tad64_keyboard.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.12/ispfpga/xo3c00f/data (searchpath added)
+-p C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/impl1 (searchpath added)
+-p C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1 (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/caps_latch.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/components.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/keycoder.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/register.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd
+VHDL library = tad64
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/libs/types.vhd
+VHDL design file = C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd
+NGD file = tad64_kb_mk1_v1_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+    <postMsg mid="35921504" type="Info"    dynamic="2" navigation="0" arg0="" arg1="C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/impl1"  />
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/types.vhd. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/types.vhd(18): " arg1="types" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/types.vhd" arg3="18"  />
+    <postMsg mid="35921013" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/types.vhd(351): " arg1="types" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/types.vhd" arg3="351"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/caps_latch.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/caps_latch.vhd(7): " arg1="caps_latch" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/caps_latch.vhd" arg3="7"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/caps_latch.vhd(18): " arg1="behaviour" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/caps_latch.vhd" arg3="18"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/components.vhd. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/components.vhd(7): " arg1="components" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/components.vhd" arg3="7"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd(4): " arg1="ascii" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd" arg3="4"  />
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd(141): " arg1="comcodes" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd" arg3="141"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd(4): " arg1="utils" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd" arg3="4"  />
+    <postMsg mid="35921013" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd(13): " arg1="utils" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd" arg3="13"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/keycoder.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/keycoder.vhd(9): " arg1="keycoder" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/keycoder.vhd" arg3="9"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/keycoder.vhd(18): " arg1="dataflow" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/keycoder.vhd" arg3="18"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd(7): " arg1="mod_sync" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd" arg3="7"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd(19): " arg1="behaviour" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd" arg3="19"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd(4): " arg1="data_buffer" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd" arg3="4"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd(21): " arg1="behaviour_rising" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd" arg3="21"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd(47): " arg1="behaviour_falling" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/register.vhd" arg3="47"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd(7): " arg1="std_sync" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd" arg3="7"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd(19): " arg1="behaviour" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd" arg3="19"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd(36): " arg1="tad64_keyboard" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd" arg3="36"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd(48): " arg1="structure" arg2="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd" arg3="48"  />
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+unit tad64_keyboard is not yet analyzed. VHDL-1485
+c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd(36): executing tad64_keyboard(structure)
+
+    <postMsg mid="35921205" type="Warning" dynamic="3" navigation="2" arg0="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd(45): " arg1="tad64_keyboard" arg2="structure" arg3="c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd" arg4="45"  />
+Top module name (VHDL): tad64_keyboard
+Last elaborated design is tad64_keyboard(structure)
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.17.
+Top-level module name = tad64_keyboard.
+
+
+
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+Applying 200.000000 MHz constraint to all clocks
+
+    <postMsg mid="35001611" type="Warning" dynamic="0" navigation="0"  />
+Results of NGD DRC are available in tad64_keyboard_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+DRC complete with no errors or warnings
+
+Design Results:
+    716 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file tad64_kb_mk1_v1_impl1.ngd.
+
+################### Begin Area Report (tad64_keyboard)######################
+Number of register bits => 191 of 7485 (2 % )
+CCU2D => 4
+FD1P3IX => 7
+FD1S3AX => 179
+FD1S3IX => 1
+FD1S3JX => 4
+GSR => 1
+IB => 87
+INV => 1
+LUT4 => 417
+OB => 12
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : clkin_c, loads : 169
+Clock Enable Nets
+Number of Clock Enables: 1
+Top 1 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : clk_N_64, loads : 23
+  Net : KC/n1694, loads : 10
+  Net : KC/n7060, loads : 9
+  Net : KC/n7058, loads : 9
+  Net : SS/std_edge.nonalpha.pnkey.space, loads : 8
+  Net : keycode_clr, loads : 8
+  Net : SS/n7127, loads : 8
+  Net : SS/n1608, loads : 8
+  Net : KC/n7063, loads : 8
+  Net : KC/n7061, loads : 8
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clkin_c]                 |  200.000 MHz|   23.931 MHz|    17 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 103.328  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 21.156  secs
+--------------------------------------------------------------

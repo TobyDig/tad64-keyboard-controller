@@ -1,0 +1,660 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2
+Ecaps_latch
+Z0 w1644153218
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 50
+Z3 dC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation
+Z4 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/caps_latch.vhd
+Z5 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/caps_latch.vhd
+l0
+L4 1
+V_BMJJR;f]6j=JV9i46=Jf2
+!s100 >R`aTSLA:P;UWbPXah5?91
+Z6 OT;C;2020.3;71
+32
+Z7 !s110 1644153231
+!i10b 1
+Z8 !s108 1644153231.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/caps_latch.vhd|
+Z10 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/caps_latch.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+DEx4 work 10 caps_latch 0 22 _BMJJR;f]6j=JV9i46=Jf2
+!i122 50
+l21
+L15 20
+V<FVXVIbKzE:j=JnQVLPP?2
+!s100 M?AG6:zX=78hh3US3b>Kc2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pcomponents
+DPx5 tad64 5 types 0 22 7ccYc1:bJQG1dZl1QLG0[3
+R1
+R2
+!i122 51
+w1644130661
+R3
+Z13 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/components.vhd
+Z14 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/components.vhd
+l0
+L7 1
+VKA0QHki7V=Sgk?eK_kU<W3
+!s100 =_]Z^@ZXBHA?0Hnfbk7Ma3
+R6
+32
+R7
+!i10b 1
+R8
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/components.vhd|
+Z16 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/components.vhd|
+!i113 1
+R11
+R12
+Pdac_components
+R1
+R2
+!i122 464
+Z17 w1644411172
+R3
+R13
+R14
+l0
+L4 1
+VahnIKKSTmR[6Uinfd>k8z3
+!s100 8Rzz`YTzKmQ8gDLMM46ba2
+R6
+32
+Z18 !s110 1644412396
+!i10b 1
+Z19 !s108 1644412396.000000
+R15
+R16
+!i113 1
+R11
+R12
+Edac_ctrl
+Z20 w1644249026
+Z21 DPx4 work 14 dac_components 0 22 ahnIKKSTmR[6Uinfd>k8z3
+R1
+R2
+!i122 430
+R3
+Z22 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/dac.vhd
+Z23 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/dac.vhd
+l0
+L5 1
+V>@<j=mC4EciJHUm7Qf@G52
+!s100 5P[2CKDTbXf`Nz4Fl3koI1
+R6
+32
+Z24 !s110 1644321031
+!i10b 1
+Z25 !s108 1644321030.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/dac.vhd|
+Z27 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/dac.vhd|
+!i113 1
+R11
+R12
+Astructure
+R21
+R1
+R2
+DEx4 work 8 dac_ctrl 0 22 >@<j=mC4EciJHUm7Qf@G52
+!i122 430
+l32
+L24 45
+V<Fd?7GYGa[9==Xh]K;DG?3
+!s100 SnabbjzUA:aL:[ZnC6JDU2
+R6
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Edata_buffer
+Z28 w1644319401
+R1
+R2
+!i122 431
+R3
+Z29 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/databuffer.vhd
+Z30 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/databuffer.vhd
+l0
+L4 1
+V5ZUfjTd48[l]R1Bh:jV2D1
+!s100 WNcnYRSb0S=G]2j^mMnd02
+R6
+32
+R24
+!i10b 1
+Z31 !s108 1644321031.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/databuffer.vhd|
+Z33 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/databuffer.vhd|
+!i113 1
+R11
+R12
+Abehaviour_falling
+R1
+R2
+Z34 DEx4 work 11 data_buffer 0 22 5ZUfjTd48[l]R1Bh:jV2D1
+!i122 431
+l40
+L38 16
+Vz7coJi=:Wn;d?YN<i7]D73
+!s100 V8cM<n82Rj4mmZg6_6Qm`2
+R6
+32
+R24
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Abehaviour_rising
+R1
+R2
+R34
+!i122 431
+l22
+L20 16
+Vm_nhTAil9d@P_LFK;Ylce2
+!s100 WU[L`Db?T5MY8^A^[l?8g2
+R6
+32
+R24
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Egpo_block
+Z35 w1644305099
+R1
+R2
+!i122 432
+R3
+Z36 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/gpo.vhd
+Z37 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/gpo.vhd
+l0
+L4 1
+VoU];XW:XLoX^NIaUZBSmT1
+!s100 djC?WjOKL:h6i>4NBULlb2
+R6
+32
+R24
+!i10b 1
+R31
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/gpo.vhd|
+Z39 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/gpo.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 9 gpo_block 0 22 oU];XW:XLoX^NIaUZBSmT1
+!i122 432
+l28
+L22 23
+VXRIPKZb1WWlIW6C03foIA3
+!s100 V@eoX[`GoC389K_XEBES90
+R6
+32
+R24
+!i10b 1
+R31
+R38
+R39
+!i113 1
+R11
+R12
+Pkb_components
+Z40 DPx5 tad64 5 types 0 22 K73ab?zM?WNRk36UFM68S3
+R1
+R2
+!i122 464
+R17
+R3
+R13
+R14
+l0
+L49 1
+VTlfm5aTNAC8dLR`9Qj9_d1
+!s100 CC4SQ]XLIT:0S1FEhUNn31
+R6
+32
+R18
+!i10b 1
+R19
+R15
+R16
+!i113 1
+R11
+R12
+Ekeycode_buffer
+Z41 w1644130631
+R1
+R2
+!i122 433
+R3
+Z42 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd
+Z43 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd
+l0
+L4 1
+VYzzWOZQbQFT?0FG:_0;;i1
+!s100 N8_fD]oLk4N]]P_E__3f=1
+R6
+32
+R24
+!i10b 1
+R31
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd|
+Z45 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 14 keycode_buffer 0 22 YzzWOZQbQFT?0FG:_0;;i1
+!i122 433
+l19
+L17 16
+V`<iIggRH]_PajojolCgkG0
+!s100 mL0Wd0Rdz2<6gTfDaUbgg1
+R6
+32
+R24
+!i10b 1
+R31
+R44
+R45
+!i113 1
+R11
+R12
+Ekeycoder
+Z46 w1644136029
+Z47 DPx5 tad64 5 utils 0 22 KIYU6?_h5ki4B4ES2[RFn2
+Z48 DPx5 tad64 8 comcodes 0 22 S>RdWCDh>U?@@OXeCL<>91
+R1
+R2
+!i122 434
+R3
+Z49 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd
+Z50 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd
+l0
+L8 1
+VaXigR9Lc@O9=24Lj42=dK3
+!s100 gzjL0kzz88kiUN`a1hh;C0
+R6
+32
+R24
+!i10b 1
+R31
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd|
+Z52 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R47
+R48
+R1
+R2
+DEx4 work 8 keycoder 0 22 aXigR9Lc@O9=24Lj42=dK3
+!i122 434
+l19
+L17 85
+VY7@gAd`bWD]`g<VLMRj423
+!s100 zPYbb1Ld<?_CP?lhKh8cP2
+R6
+32
+R24
+!i10b 1
+R31
+R51
+R52
+!i113 1
+R11
+R12
+Emod_sync
+Z53 w1644249841
+R40
+R1
+R2
+!i122 435
+R3
+Z54 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd
+Z55 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd
+l0
+L7 1
+V4FU]BSAY=HJ^EjW?czfaW0
+!s100 MSCS8[nlVYkZCOiW^]=g22
+R6
+32
+R24
+!i10b 1
+R31
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd|
+Z57 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R40
+R1
+R2
+DEx4 work 8 mod_sync 0 22 4FU]BSAY=HJ^EjW?czfaW0
+!i122 435
+l23
+L21 13
+V<<D9ULCFz?JNX<o<eUVYg3
+!s100 ^8:R4ZYW_SOXFe7Yl><JO0
+R6
+32
+R24
+!i10b 1
+R31
+R56
+R57
+!i113 1
+R11
+R12
+Eprescaler
+Z58 w1644241925
+R47
+Z59 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z60 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 436
+R3
+Z61 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/prescaler.vhd
+Z62 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/prescaler.vhd
+l0
+L8 1
+V5lHO<Z2bZ5Hnmmza;i=Oi1
+!s100 0PS_lEMK;[cgJG37j<d<P0
+R6
+32
+Z63 !s110 1644321032
+!i10b 1
+R31
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/prescaler.vhd|
+Z65 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/prescaler.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R47
+R59
+R60
+R1
+R2
+DEx4 work 9 prescaler 0 22 5lHO<Z2bZ5Hnmmza;i=Oi1
+!i122 436
+l29
+L22 26
+V]bboFbKiE=DkM6`TA_;hc3
+!s100 U?fQAlOiQzUdo?RRQCWRk0
+R6
+32
+R63
+!i10b 1
+R31
+R64
+R65
+!i113 1
+R11
+R12
+Estd_sync
+Z66 w1644411523
+R47
+R1
+R2
+!i122 465
+R3
+Z67 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd
+Z68 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd
+l0
+L7 1
+V_NI6?N>kUjd]L:<nTlb9F0
+!s100 Q;8488E>?mli8XGTGd^Y=3
+R6
+32
+R18
+!i10b 1
+R19
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd|
+Z70 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R47
+R1
+R2
+DEx4 work 8 std_sync 0 22 _NI6?N>kUjd]L:<nTlb9F0
+!i122 465
+l32
+L19 38
+V>5CW_ojRj7B]eQBBO5SKg1
+!s100 nPnLEG@U_7nA9`QaBAmX?0
+R6
+32
+R18
+!i10b 1
+R19
+R69
+R70
+!i113 1
+R11
+R12
+Etad64_keyboard
+Z71 w1644411452
+Z72 DPx4 work 13 kb_components 0 22 Tlfm5aTNAC8dLR`9Qj9_d1
+R47
+R40
+R1
+R2
+!i122 466
+R3
+Z73 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd
+Z74 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd
+l0
+L33 1
+VzX_T1U]Vho;]LiN@^S9=e1
+!s100 3Ing;5>5m=8ZZcVD0UU3Q1
+R6
+32
+Z75 !s110 1644412397
+!i10b 1
+R19
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd|
+Z77 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd|
+!i113 1
+R11
+R12
+Astructure
+R34
+R72
+R47
+R40
+R1
+R2
+DEx4 work 14 tad64_keyboard 0 22 zX_T1U]Vho;]LiN@^S9=e1
+!i122 466
+l96
+L48 202
+V@VSB9AmiQXz][>X`0LboD3
+!s100 3`]=J05cGMZmd=c?`M32F3
+R6
+32
+R75
+!i10b 1
+R19
+R76
+R77
+!i113 1
+R11
+R12
+Etestbench
+Z78 w1644412693
+R40
+R1
+R2
+!i122 468
+R3
+Z79 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation/testbench.vhd
+Z80 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation/testbench.vhd
+l0
+L7 1
+V7I1B9om:YUe?hahA]jCR31
+!s100 kXKA072Xkcl`:9JaYkf<60
+R6
+32
+Z81 !s110 1644412698
+!i10b 1
+Z82 !s108 1644412698.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation/testbench.vhd|
+Z84 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation/testbench.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R40
+R1
+R2
+Z85 DEx4 work 9 testbench 0 22 7I1B9om:YUe?hahA]jCR31
+!i122 468
+l40
+Z86 L11 68
+VDSB_RneHS]B71hbAa@QIR3
+!s100 7MZkobU`kf3E@>JdZI8ZM1
+R6
+32
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R11
+R12
+Etoggler
+Z87 w1644248218
+R1
+R2
+!i122 439
+R3
+Z88 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/toggler.vhd
+Z89 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/toggler.vhd
+l0
+L4 1
+V?NkR8dk@aDAh6YFJ;eQ]X0
+!s100 _>Ak@X[OoD`5dio4LTh;?1
+R6
+32
+R63
+!i10b 1
+Z90 !s108 1644321032.000000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/toggler.vhd|
+Z92 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/toggler.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 7 toggler 0 22 ?NkR8dk@aDAh6YFJ;eQ]X0
+!i122 439
+l25
+L19 20
+VjD7n0DnDcMYGzJFT4BCz_3
+!s100 >==GI5d?^88[BmI>_RTn20
+R6
+32
+R63
+!i10b 1
+R90
+R91
+R92
+!i113 1
+R11
+R12
+Eupdown_counter
+Z93 w1644241929
+R59
+R60
+R1
+R2
+!i122 440
+R3
+Z94 8C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/updowncounter.vhd
+Z95 FC:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/updowncounter.vhd
+l0
+L5 1
+Vo@=D;znZ7]R:F`[6^?3WE0
+!s100 V8m]?aggVY4gIl6zR6FbQ0
+R6
+32
+R63
+!i10b 1
+R90
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/updowncounter.vhd|
+Z97 !s107 C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/updowncounter.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R59
+R60
+R1
+R2
+DEx4 work 14 updown_counter 0 22 o@=D;znZ7]R:F`[6^?3WE0
+!i122 440
+l24
+L20 24
+VO2CNSalZYO_X8OO4P;K]?0
+!s100 J=A[zz4koihS<[X[Td:4R1
+R6
+32
+R63
+!i10b 1
+R90
+R96
+R97
+!i113 1
+R11
+R12

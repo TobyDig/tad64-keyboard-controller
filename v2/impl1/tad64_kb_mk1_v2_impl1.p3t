@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "tad64_kb_mk1_v2_impl1.log"
+-o "tad64_kb_mk1_v2_impl1.csv"
+-pr "tad64_kb_mk1_v2_impl1.prf"

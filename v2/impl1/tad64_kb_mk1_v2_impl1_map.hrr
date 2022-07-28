@@ -1,0 +1,126 @@
+---------------------------------------------------
+Report for cell tad64_keyboard
+   Instance path: tad64_keyboard
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     330.00        100.0
+                                  LUT4	     634.00        100.0
+                                 IOBUF	        125        100.0
+                                PFUREG	        386        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       toggler('0')_U2	          1         0.4
+                          toggler('1')	          1         0.3
+                       toggler('0')_U1	          1         0.3
+                          toggler('0')	          1         0.4
+                              std_sync	          1        48.9
+                              mod_sync	          1         0.5
+                              keycoder	          1        29.4
+                        keycode_buffer	          1         0.6
+                    data_buffer(11)_U0	          1         0.9
+                         gpo_block(12)	          1         2.9
+                       data_buffer(11)	          1         0.8
+                        dac_ctrl(12,8)	          1         1.3
+---------------------------------------------------
+Report for cell data_buffer(11)_U0
+   Instance path: tad64_keyboard/OB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         0.9
+                                PFUREG	         11         2.8
+---------------------------------------------------
+Report for cell keycoder
+   Instance path: tad64_keyboard/KC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      97.00        29.4
+                                  LUT4	     212.00        33.4
+---------------------------------------------------
+Report for cell keycode_buffer
+   Instance path: tad64_keyboard/KCB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.83         0.6
+                                PFUREG	          7         1.8
+---------------------------------------------------
+Report for cell mod_sync
+   Instance path: tad64_keyboard/MS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.75         0.5
+                                PFUREG	          5         1.3
+---------------------------------------------------
+Report for cell std_sync
+   Instance path: tad64_keyboard/SS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     161.42        48.9
+                                  LUT4	     264.00        41.6
+                                PFUREG	        308        79.8
+---------------------------------------------------
+Report for cell toggler('0')_U1
+   Instance path: tad64_keyboard/CMDA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.08         0.3
+                                  LUT4	       1.00         0.2
+                                PFUREG	          3         0.8
+---------------------------------------------------
+Report for cell toggler('0')_U2
+   Instance path: tad64_keyboard/CAPS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.4
+                                  LUT4	       1.00         0.2
+                                PFUREG	          3         0.8
+---------------------------------------------------
+Report for cell toggler('1')
+   Instance path: tad64_keyboard/CMDK
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.08         0.3
+                                  LUT4	       1.00         0.2
+                                PFUREG	          3         0.8
+---------------------------------------------------
+Report for cell dac_ctrl(12,8)
+   Instance path: tad64_keyboard/DAC
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.25         1.3
+                                  LUT4	       7.00         1.1
+                                PFUREG	          7         1.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          prescaler(8)	          1         0.9
+---------------------------------------------------
+Report for cell prescaler(8)
+   Instance path: tad64_keyboard/DAC/PSR
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         0.9
+                                  LUT4	       6.00         0.9
+                                PFUREG	          5         1.3
+---------------------------------------------------
+Report for cell toggler('0')
+   Instance path: tad64_keyboard/CMDP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         0.4
+                                  LUT4	       1.00         0.2
+                                PFUREG	          3         0.8
+---------------------------------------------------
+Report for cell data_buffer(11)
+   Instance path: tad64_keyboard/POB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.75         0.8
+                                PFUREG	         11         2.8
+---------------------------------------------------
+Report for cell gpo_block(12)
+   Instance path: tad64_keyboard/GPO
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50         2.9
+                                  LUT4	      24.00         3.8
+                                PFUREG	         12         3.1

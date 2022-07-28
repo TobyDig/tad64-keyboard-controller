@@ -1,0 +1,143 @@
+----------------------------------------------------------------------
+Report for cell tad64_keyboard.TECH
+Register bits:  386 of 7485 (5.157%)
+I/O cells:      125
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11          100.0
+                            FD1P3IX        21          100.0
+                            FD1S3AX       341          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX        18          100.0
+                            FD1S3JX         5          100.0
+                                GSR         1          100.0
+                                 IB        88          100.0
+                                INV         1          100.0
+                               LUT4       634          100.0
+                                 OB        37          100.0
+SUB MODULES
+                     dac_ctrl(12,8)         1
+                    data_buffer(11)         1
+                 data_buffer(11)_U0         1
+                      gpo_block(12)         1
+                     keycode_buffer         1
+                           keycoder         1
+                           mod_sync         1
+                       prescaler(8)         1
+                           std_sync         1
+                       toggler('0')         1
+                    toggler('0')_U1         1
+                    toggler('0')_U2         1
+                       toggler('1')         1
+                              TOTAL      1171
+----------------------------------------------------------------------
+Report for cell data_buffer(11)_U0.v1
+Instance Path : OB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX        11           61.1
+                              TOTAL        11
+----------------------------------------------------------------------
+Report for cell keycoder.v1
+Instance Path : KC
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       212           33.4
+                              TOTAL       212
+----------------------------------------------------------------------
+Report for cell keycode_buffer.v1
+Instance Path : KCB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3IX         7           33.3
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell mod_sync.v1
+Instance Path : MS
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1            0.3
+                            FD1S3JX         4           80.0
+                               LUT4         1            0.2
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell std_sync.v1
+Instance Path : SS
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX       308           90.3
+                               LUT4       264           41.6
+                              TOTAL       572
+----------------------------------------------------------------------
+Report for cell toggler('0')_U1.v1
+Instance Path : CMDA
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         2            0.6
+                            FD1S3IX         1            5.6
+                               LUT4         1            0.2
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell toggler('0')_U2.v1
+Instance Path : CAPS
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         3            0.9
+                               LUT4         1            0.2
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell toggler('1').v1
+Instance Path : CMDK
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1            0.3
+                            FD1S3AY         1          100.0
+                            FD1S3IX         1            5.6
+                               LUT4         1            0.2
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell dac_ctrl(12,8).v1
+Instance Path : DAC
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3IX         1            4.8
+                            FD1S3AX         1            0.3
+                            FD1S3IX         4           22.2
+                            FD1S3JX         1           20.0
+                               LUT4         7            1.1
+SUB MODULES
+                       prescaler(8)         1
+                              TOTAL        15
+----------------------------------------------------------------------
+Report for cell prescaler(8).v1
+Instance Path : DAC.PSR
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1            0.3
+                            FD1S3IX         4           22.2
+                               LUT4         6            0.9
+                              TOTAL        11
+----------------------------------------------------------------------
+Report for cell toggler('0').v1
+Instance Path : CMDP
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         2            0.6
+                            FD1S3IX         1            5.6
+                               LUT4         1            0.2
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell data_buffer(11).v1
+Instance Path : POB
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX        11            3.2
+                              TOTAL        11
+----------------------------------------------------------------------
+Report for cell gpo_block(12).v1
+Instance Path : GPO
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX        12            3.5
+                               LUT4        24            3.8
+                              TOTAL        36

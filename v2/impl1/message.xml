@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/types.vhd(17): </Dynamic>
+            <Dynamic>types</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/types.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/types.vhd(135): </Dynamic>
+            <Dynamic>types</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/types.vhd</Navigation>
+            <Navigation>135</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd(4): </Dynamic>
+            <Dynamic>utils</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd(13): </Dynamic>
+            <Dynamic>utils</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/components.vhd(4): </Dynamic>
+            <Dynamic>dac_components</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/components.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/components.vhd(49): </Dynamic>
+            <Dynamic>kb_components</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/components.vhd</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/databuffer.vhd(4): </Dynamic>
+            <Dynamic>data_buffer</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/databuffer.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/databuffer.vhd(20): </Dynamic>
+            <Dynamic>behaviour_rising</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/databuffer.vhd</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/databuffer.vhd(38): </Dynamic>
+            <Dynamic>behaviour_falling</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/databuffer.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd(33): </Dynamic>
+            <Dynamic>tad64_keyboard</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd(48): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd(4): </Dynamic>
+            <Dynamic>keycode_buffer</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd(17): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd(4): </Dynamic>
+            <Dynamic>ascii</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd(141): </Dynamic>
+            <Dynamic>comcodes</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd</Navigation>
+            <Navigation>141</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycoder.vhd(8): </Dynamic>
+            <Dynamic>keycoder</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycoder.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycoder.vhd(17): </Dynamic>
+            <Dynamic>dataflow</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/keycoder.vhd</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd(7): </Dynamic>
+            <Dynamic>std_sync</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd(19): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd(7): </Dynamic>
+            <Dynamic>mod_sync</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd(21): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/toggler.vhd(4): </Dynamic>
+            <Dynamic>toggler</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/toggler.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/toggler.vhd(19): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/toggler.vhd</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/dac.vhd(5): </Dynamic>
+            <Dynamic>dac_ctrl</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/dac.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/dac.vhd(24): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/dac.vhd</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/updowncounter.vhd(5): </Dynamic>
+            <Dynamic>updown_counter</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/updowncounter.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/updowncounter.vhd(20): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/updowncounter.vhd</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/prescaler.vhd(8): </Dynamic>
+            <Dynamic>prescaler</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/prescaler.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/prescaler.vhd(22): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/prescaler.vhd</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/gpo.vhd(4): </Dynamic>
+            <Dynamic>gpo_block</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/gpo.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/gpo.vhd(22): </Dynamic>
+            <Dynamic>behaviour</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/gpo.vhd</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd(45): </Dynamic>
+            <Dynamic>tad64_keyboard</Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>c:/users/tobya/documents/lattice diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

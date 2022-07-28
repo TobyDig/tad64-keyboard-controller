@@ -1,0 +1,226 @@
+{C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/tad64_keyboard.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package types
+-- Loading package utils
+-- Loading package kb_components
+-- Compiling entity tad64_keyboard
+-- Compiling architecture structure of tad64_keyboard
+-- Loading entity data_buffer
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation/testbench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/simulation/testbench.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package types
+-- Compiling entity testbench
+-- Compiling architecture implementation of testbench
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/databuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/databuffer.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity data_buffer
+-- Compiling architecture behaviour_rising of data_buffer
+-- Compiling architecture behaviour_falling of data_buffer
+-- Loading entity data_buffer
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/toggler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/toggler.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity toggler
+-- Compiling architecture behaviour of toggler
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/mod_synchroniser.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package types
+-- Compiling entity mod_sync
+-- Compiling architecture behaviour of mod_sync
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/dac.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/dac.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dac_components
+-- Compiling entity dac_ctrl
+-- Compiling architecture structure of dac_ctrl
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/updowncounter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/updowncounter.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity updown_counter
+-- Compiling architecture behaviour of updown_counter
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd} {1 {vcom -work tad64 -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/utilities.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package utils
+-- Compiling package body utils
+-- Loading package utils
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/components.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/components.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dac_components
+-- Loading package types
+-- Compiling package kb_components
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/gpo.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/gpo.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity gpo_block
+-- Compiling architecture behaviour of gpo_block
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package comcodes
+-- Loading package utils
+-- Compiling entity keycoder
+-- Compiling architecture dataflow of keycoder
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(22): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(23): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(24): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(25): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(26): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(27): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(28): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(29): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(30): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(31): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(32): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(33): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(34): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(35): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(36): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(37): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(38): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(39): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(40): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(41): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(42): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(43): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(44): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(45): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(46): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(47): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(48): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(49): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(50): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(51): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(52): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(53): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(54): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(55): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(56): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(57): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(58): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(59): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(60): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(61): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(62): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(63): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(64): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(65): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(66): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(67): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(68): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(69): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(70): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(71): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(72): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(73): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(74): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(75): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(76): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(77): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(78): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(79): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(80): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(81): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(82): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(83): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(84): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(85): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(86): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(87): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(88): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(89): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(90): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(91): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(92): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(93): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(94): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(95): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(96): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(97): (vcom-1563) Choice in selected signal assignment must be locally static.
+** Warning: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycoder.vhd(98): (vcom-1563) Choice in selected signal assignment must be locally static.
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/types.vhd} {1 {vcom -work tad64 -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/types.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package types
+-- Compiling package body types
+-- Loading package types
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd} {1 {vcom -work tad64 -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/libs/comcodes.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ascii
+-- Compiling package comcodes
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/keycodebuffer.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity keycode_buffer
+-- Compiling architecture behaviour of keycode_buffer
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/std_synchroniser.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package utils
+-- Compiling entity std_sync
+-- Compiling architecture behaviour of std_sync
+
+} {} {}} {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/prescaler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v2/prescaler.vhd}
+Model Technology ModelSim - Lattice FPGA Edition vcom 2020.3 Compiler 2020.10 Oct 14 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package utils
+-- Compiling entity prescaler
+-- Compiling architecture behaviour of prescaler
+
+} {} {}}

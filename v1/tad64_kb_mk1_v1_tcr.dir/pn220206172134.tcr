@@ -1,0 +1,10 @@
+#Start recording tcl command: 2/6/2022 17:15:32
+#Project Location: C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1; Project name: tad64_kb_mk1_v1
+prj_project new -name "tad64_kb_mk1_v1" -impl "impl1" -dev LCMXO3LF-6900C-6BG256I -synthesis "lse"
+prj_src add "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/caps_latch.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/components.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/keycoder.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/mod_synchroniser.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/register.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/std_synchroniser.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/tad64_keyboard.vhd"
+prj_project save
+prj_src add "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/libs/comcode.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/libs/types.vhd" "C:/Users/tobya/Documents/Lattice Diamond/tad64_keyboard_mk1/v1/libs/utilities.vhd"
+prj_run Synthesis -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 2/6/2022 17:21:34
